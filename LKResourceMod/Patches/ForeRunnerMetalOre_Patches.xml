@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Penetrating Scanner Deposit -->
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="LKForerunner_Metal"]</xpath>
+	<value>
+		<deepCommonality>.75</deepCommonality>
+		<deepCountPerPortion>15</deepCountPerPortion>
+		<deepLumpSizeRange>2~6</deepLumpSizeRange>
+	</value>
+</Operation>
+
+<!-- Long-Ranged Mineral Scanner -->
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
+	<value>
+		<li>LKForerunner_Metalore</li>
+	</value>
+</Operation>
+
+<!-- Ideology Worksite -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Ideology</li>
+	</mods>
+<match Class="PatchOperationAdd">
+<xpath>Defs/SitePartDef[defName="WorkSite_Mining"]/lootTable</xpath>
+	<value>
+	<li>
+		<thing>LKForerunner_Metal</thing>
+		<weight>0.15</weight> <!-- 6.9%~ (nice.) -->
+	</li>
+	</value>
+</match>
+</Operation>
+
+</Patch>
