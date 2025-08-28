@@ -41,7 +41,7 @@
       <commonality>1.00</commonality>
       <constructEffect>ConstructMetal</constructEffect>
       <isAirtight>true</isAirtight>
-      <color>(130,130,190)</color>
+      <color>(135,4,4)</color>
       <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
@@ -64,7 +64,7 @@
 		<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		<shaderType>CutoutComplex</shaderType>
-		<color>(130,130,190)</color>
+		<color>(135,4,4)</color>
 		<colorTwo>(100, 80, 80)</colorTwo>
 	</graphicData>
 	<statBases>
@@ -79,4 +79,5 @@
 		<veinMineable>true</veinMineable>
 	</building>
 </ThingDef>
+
 </Defs>
