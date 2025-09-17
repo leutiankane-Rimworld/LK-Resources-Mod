@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/IncidentDef[defName = "MeteoriteImpact"]/workerClass/thingDefs</xpath>
+    <value>
+      <li>LKUberSteelore</li>
+      <li>LKForerunner_Metalore</li> 
+    </value>
+  </Operation>
+
+</Patch>
