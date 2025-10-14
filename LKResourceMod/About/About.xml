@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LK Resources Mod</name>
+    <author>LeutianKane</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>LeutianKane.Resources</packageId>
+    <description>My First Rimworld Mod.  This one adds my version of ForeRunner Metal from RimFlood into the game.
+[code]--This metal will work with nearly anything stuffable, even gravship hulls and armor/clothing.This resource is automatically added to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2503894706]Mines 2.0[/url] mod building's bills to be "mineable". IF you download [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3548064530]LK Mines 2.0 Compatability patch[/url] 
+--Also Craftable in the Fabricator after researching advanced fabrication.
+--Includes Wall Mounted Sun Lamp now,that has 24 radius and consumes 2 power.
+--Adds uber Generators and battery as well for increased power output and storage at a cost.
+--Added Uber Passenger Shuttle if you have odyssey installed Higher Storage capacity and Fuel capacity at a higher cost to construct.(requires Odyssey)[/code]
+
+[H1]Moved Airtight support to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3548572617]LK Airtight Patch Mod.[/url][/H1]
+
+
+[I]Yes i realize the metal is a bit OP but its meant to be used in playthru's using High end factions like V.O.I.D , Warhammer , star wars , etc  so bare that in mind when considering "balance"[/I]
+
+[H1][B][url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3531934234]Patch Notes[/url][/B][/H1]</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+    <li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+        <li>brrainz.harmony</li>
+        <li>Cain.Mineshaft</li>
+    </loadAfter>
+</ModMetaData>
