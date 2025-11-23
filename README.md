@@ -12,4 +12,6 @@ Moved Airtight support to LK Airtight Patch Mod.
 Yes i realize the metal is a bit OP but its meant to be used in playthru's using High end factions like V.O.I.D , Warhammer , star wars , etc so bare that in mind when considering "balance"
 
 Preview Image by ChipsGray 
+
+
 [Patch Notes](https://steamcommunity.com/sharedfiles/filedetails/changelog/3531934234)
