@@ -1,0 +1,6 @@
+# Changelog for LK Ultimate Armory
+# Author is LeutianKane
+clothing for what its made from.
+
+1.0.1.0 ---Added Versioning to mod to use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2161604688]Auto Changenote[/url] mod.
+        ---Made Uber Battery, Vanometric Power Cell and Gravcore power cell all built into the floor. so they wont get in the way anymore.
