@@ -13,4 +13,13 @@
 			<li>Make_LKUberSteel</li>
 		</value>
 	</Operation>
+
+	<!--Bulk Wort-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Brewery"]/recipes</xpath>
+		<value>
+			<li>Make_Wort_BulkLK</li>
+		</value>
+	</Operation>
+
 </Patch>
