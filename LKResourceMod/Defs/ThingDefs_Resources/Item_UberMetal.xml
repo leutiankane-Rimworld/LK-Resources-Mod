@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>LKUberSteel</defName>
+    <label>Uber-steel</label>
+    <description>A space aged metal alloy used for building a huge variety of structures, weapons, and machines.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Uber_Steel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>550</MarketValue>
+      <Mass>0.1</Mass>
+      <StuffPower_Armor_Sharp>3</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>3</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>3</SharpDamageMultiplier>
+      <BluntDamageMultiplier>3</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <slagDef>ChunkSlagSteel</slagDef>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+		<li>Fabric</li>
+		<li>Stony</li>
+		<li>Leathery</li>
+    <li>Woody</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>1.00</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <isAirtight>true</isAirtight>
+      <color>(135,4,4)</color>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+      <statFactors>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Beauty>5</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>800</allowedArchonexusCount>
+
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+	<defName>LKUberSteelore</defName>
+	<label>compacted uber-steel</label>
+	<description>The remains of some giant advanced spacecraft. Rich in uber-steel.</description>
+	<graphicData>
+		<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
+		<color>(135,4,4)</color>
+		<colorTwo>(100, 80, 80)</colorTwo>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>3200</MaxHitPoints>
+	</statBases>
+	<building>
+		<isResourceRock>true</isResourceRock>
+		<mineableThing>LKUberSteel</mineableThing>
+		<mineableYield>40</mineableYield>
+		<mineableScatterCommonality>0.9</mineableScatterCommonality>
+		<mineableScatterLumpSizeRange>3~20</mineableScatterLumpSizeRange>
+		<veinMineable>true</veinMineable>
+	</building>
+</ThingDef>
+</Defs>
