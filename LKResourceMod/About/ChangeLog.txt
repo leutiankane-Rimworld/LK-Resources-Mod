@@ -1,6 +1,0 @@
-# Changelog for LK Ultimate Armory
-# Author is LeutianKane
-1.0.1.2 ---Updated Uber Shuttle's Carry Capacity to 500k Kg.
-1.0.1.1 ---Added Recipe for Bulk Wort from Brewery (25 Hops= 25 Wort).
-1.0.1.0 ---Added Versioning to mod to use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2161604688]Auto Changenote[/url] mod.
-        ---Made Uber Battery, Vanometric Power Cell and Gravcore power cell all built into the floor. so they wont get in the way anymore.
