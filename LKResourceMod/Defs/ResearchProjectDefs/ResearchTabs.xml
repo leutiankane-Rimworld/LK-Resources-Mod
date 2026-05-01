@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- To add a research tab, make a new ResearchTabDef here and then set the <tab> field of your research project to match it -->
+  
+  <ResearchTabDef>
+    <defName>LKResearchTab</defName>
+    <label>LK Resources</label>
+    <generalTitle>LK Resources projects</generalTitle>
+    <generalDescription>Unlock uber technologies by researching at a hi tech research bench.</generalDescription>
+  </ResearchTabDef>
+
+</Defs>
